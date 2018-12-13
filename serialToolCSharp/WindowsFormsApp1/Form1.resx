@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ComDevice.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>245, 13</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>364, 13</value>
+  </metadata>
+  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>454, 13</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
+        AADoogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/56EA/+CII//ghij/5JMb/+iiAP/oogD/6KIA/+iiAP/oogD/45MS/+GJ
+        Jv/oogP/6KIA/+iiAP/lnAX/4IYo/+abDv/oogD/6KIA/+afAv/ghyb/4IYo/+CGKP/jjiH/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+KVDf/IO43/wRbN/8EYy//EH8X/2WRx/+ehAv/oogD/6KIA/+eh
+        AP/KR3T/wxnS/+aWI//oogD/6KIA/9ZyNP+/ENf/3nRf/+iiAP/oogD/35IL/78Wyv/BF83/wRjL/8Ib
+        y//XXHn/56AF/+iiAP/oogD/6KIA/+iiAP/oogD/y05q/8kuu//kjif/56IA/9l7LP/BGsT/4oJH/+ii
+        AP/oogD/5qEA/8Elq//DHcf/4HxS/+iiAP/oogD/zFBn/8Eby//VUpH/6KIA/+iiAP/fkgv/wRbK/+aX
+        Lf/oogD/2n8p/8AXxv/gfVH/6KIA/+iiAP/oogD/6KIA/+ScAf/CI67/33Ve/+iiAP/oogD/56EA/8pI
+        cf/WU4//6KIA/+iiAP/ejw7/wxnN/8xJhv/YW4P/6KIA/+eiAP/CK57/0E+E/8sswf/oogf/6KIA/9+S
+        C//BFsr/5pct/+iiAP/noQD/xjmL/9hbhf/oogD/6KIA/+iiAP/oogD/4pUL/8Eawf/kjzf/6KIA/+ii
+        AP/oogD/0V9O/9BAq//oogD/6KIA/9RtOv/LL8L/1nUz/843tf/ooQP/4JYG/8EWyP/gizT/wxvE/+aV
+        Jv/oogD/35IL/8EWyv/mly3/6KIA/+agAP/EMJf/2mF7/+iiAP/oogD/6KIA/+iiAP/hlAz/wRnC/+SQ
+        Nf/oogD/6KIA/+iiAP/RYEz/zzux/+iiAP/oogD/yUV2/9VRkv/gkg7/xCK//+aXIP/XdjH/yirJ/+af
+        Av/DKqH/4HpW/+iiAP/fkgv/wBbK/9tvX//bdz//zU5z/8Ufyf/lkSb/6KIA/+iiAP/oogD/6KIA/+GU
+        DP/BGcL/5JA1/+iiAP/oogD/6KIA/9FgTP/PO7H/6KIA/+ahAP/BJan/33Ng/+WfAP/ELJ7/4YFL/81U
+        YP/TS5v/56EA/8lHdf/WVY3/6KIA/9+SC/+/Fsr/xSa7/8Qmtf/CGc//4oc6/+iiAP/oogD/6KIA/+ii
+        AP/oogD/4ZQM/8EZwv/kkDX/6KIA/+iiAP/oogD/0WBM/887sf/oogD/3o4P/8AUzv/nlC7/6KIA/8tM
+        bf/YYH3/xDOS/91sa//oogD/02hD/801uf/ooQT/35IL/8EWyv/mly3/5qAB/89YXP/PPar/56AH/+ii
+        AP/oogD/6KIA/+iiAP/hlAz/wRnC/+SQNf/oogD/6KIA/+iiAP/RYEz/zzux/+iiAP/UbD3/ySfL/+ii
+        Bf/oogD/1XI1/8kwtP/CGsP/5Y83/+iiAP/ciBb/xBzN/+aXHv/fkgv/wRbK/+aXLf/oogD/3o4T/8MZ
+        zP/mlCL/6KIA/+iiAP/oogD/6KIA/+GUDP/BGcL/5JA1/+iiAP/oogD/6KIA/9FgTP/PO7H/6KIA/8pK
+        b//TSJ7/6KIA/+iiAP/fjxH/wBnD/8clzP/nnQ3/6KIA/+SbBf/BILT/4X9N/9+SC//BFsr/5pct/+eh
+        AP/Vbjr/xBzR/+aXHP/oogD/6KIA/+iiAP/oogD/4ZQM/8EZwv/kkDX/6KIA/+iiAP/oogD/0WBM/887
+        sf/moQD/wiam/9xqbv/oogD/6KIA/+WfAP/CKKX/0D+r/+ihAv/oogD/56EA/8Y3jP/YXoD/35IL/8AW
+        yv/HLrH/xzCn/8AYyP/WWIb/6KIC/+iiAP/oogD/6KIA/+iiAP/lnQT/2nFE/+abEv/oogD/6KIA/+ii
+        AP/gixv/330+/+WeAP/ZcUX/5ZUb/+iiAP/oogD/6KIA/9x/Lf/hhzH/6KIA/+iiAP/oogD/3oUi/+CB
+        Ov/lnAT/2XBH/9luTP/Zbkz/4II4/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>38</value>
+  </metadata>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
+        AADoogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/56EA/+CII//ghij/5JMb/+iiAP/oogD/6KIA/+iiAP/oogD/45MS/+GJ
+        Jv/oogP/6KIA/+iiAP/lnAX/4IYo/+abDv/oogD/6KIA/+afAv/ghyb/4IYo/+CGKP/jjiH/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+KVDf/IO43/wRbN/8EYy//EH8X/2WRx/+ehAv/oogD/6KIA/+eh
+        AP/KR3T/wxnS/+aWI//oogD/6KIA/9ZyNP+/ENf/3nRf/+iiAP/oogD/35IL/78Wyv/BF83/wRjL/8Ib
+        y//XXHn/56AF/+iiAP/oogD/6KIA/+iiAP/oogD/y05q/8kuu//kjif/56IA/9l7LP/BGsT/4oJH/+ii
+        AP/oogD/5qEA/8Elq//DHcf/4HxS/+iiAP/oogD/zFBn/8Eby//VUpH/6KIA/+iiAP/fkgv/wRbK/+aX
+        Lf/oogD/2n8p/8AXxv/gfVH/6KIA/+iiAP/oogD/6KIA/+ScAf/CI67/33Ve/+iiAP/oogD/56EA/8pI
+        cf/WU4//6KIA/+iiAP/ejw7/wxnN/8xJhv/YW4P/6KIA/+eiAP/CK57/0E+E/8sswf/oogf/6KIA/9+S
+        C//BFsr/5pct/+iiAP/noQD/xjmL/9hbhf/oogD/6KIA/+iiAP/oogD/4pUL/8Eawf/kjzf/6KIA/+ii
+        AP/oogD/0V9O/9BAq//oogD/6KIA/9RtOv/LL8L/1nUz/843tf/ooQP/4JYG/8EWyP/gizT/wxvE/+aV
+        Jv/oogD/35IL/8EWyv/mly3/6KIA/+agAP/EMJf/2mF7/+iiAP/oogD/6KIA/+iiAP/hlAz/wRnC/+SQ
+        Nf/oogD/6KIA/+iiAP/RYEz/zzux/+iiAP/oogD/yUV2/9VRkv/gkg7/xCK//+aXIP/XdjH/yirJ/+af
+        Av/DKqH/4HpW/+iiAP/fkgv/wBbK/9tvX//bdz//zU5z/8Ufyf/lkSb/6KIA/+iiAP/oogD/6KIA/+GU
+        DP/BGcL/5JA1/+iiAP/oogD/6KIA/9FgTP/PO7H/6KIA/+ahAP/BJan/33Ng/+WfAP/ELJ7/4YFL/81U
+        YP/TS5v/56EA/8lHdf/WVY3/6KIA/9+SC/+/Fsr/xSa7/8Qmtf/CGc//4oc6/+iiAP/oogD/6KIA/+ii
+        AP/oogD/4ZQM/8EZwv/kkDX/6KIA/+iiAP/oogD/0WBM/887sf/oogD/3o4P/8AUzv/nlC7/6KIA/8tM
+        bf/YYH3/xDOS/91sa//oogD/02hD/801uf/ooQT/35IL/8EWyv/mly3/5qAB/89YXP/PPar/56AH/+ii
+        AP/oogD/6KIA/+iiAP/hlAz/wRnC/+SQNf/oogD/6KIA/+iiAP/RYEz/zzux/+iiAP/UbD3/ySfL/+ii
+        Bf/oogD/1XI1/8kwtP/CGsP/5Y83/+iiAP/ciBb/xBzN/+aXHv/fkgv/wRbK/+aXLf/oogD/3o4T/8MZ
+        zP/mlCL/6KIA/+iiAP/oogD/6KIA/+GUDP/BGcL/5JA1/+iiAP/oogD/6KIA/9FgTP/PO7H/6KIA/8pK
+        b//TSJ7/6KIA/+iiAP/fjxH/wBnD/8clzP/nnQ3/6KIA/+SbBf/BILT/4X9N/9+SC//BFsr/5pct/+eh
+        AP/Vbjr/xBzR/+aXHP/oogD/6KIA/+iiAP/oogD/4ZQM/8EZwv/kkDX/6KIA/+iiAP/oogD/0WBM/887
+        sf/moQD/wiam/9xqbv/oogD/6KIA/+WfAP/CKKX/0D+r/+ihAv/oogD/56EA/8Y3jP/YXoD/35IL/8AW
+        yv/HLrH/xzCn/8AYyP/WWIb/6KIC/+iiAP/oogD/6KIA/+iiAP/lnQT/2nFE/+abEv/oogD/6KIA/+ii
+        AP/gixv/330+/+WeAP/ZcUX/5ZUb/+iiAP/oogD/6KIA/9x/Lf/hhzH/6KIA/+iiAP/oogD/3oUi/+CB
+        Ov/lnAT/2XBH/9luTP/Zbkz/4II4/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+</root>
